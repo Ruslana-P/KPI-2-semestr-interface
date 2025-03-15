@@ -3,6 +3,7 @@ import courage from "../../images/courage.png";
 import cooperation from "../../images/cooperation.png";
 import love from "../../images/love.png";
 import respect from "../../images/respect.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -23,12 +24,17 @@ const Home = () => {
               </h1>
             </div>
             <ul class="flex nav">
-              <li>Про нас</li>
+              <li>
+                <Link to="/">Про нас</Link>
+              </li>
               <li>Практична інформація</li>
               <li>Новини</li>
               <li>Оплати</li>
             </ul>
-            <button class="flex fl-wrap apply-btn">Подати заявку</button>
+
+            <button class="flex fl-wrap apply-btn">
+              <Link to="/userAccount"> Подати заявку</Link>
+            </button>
           </HeaderWrapper>
         </Header>
         <div class="hero_section_mask"></div>

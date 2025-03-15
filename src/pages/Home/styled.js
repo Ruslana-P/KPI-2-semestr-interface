@@ -9,6 +9,11 @@ export const HeroSection = styled.div`
     flex-wrap: wrap;
   }
 
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
   h1 {
     display: flex;
     flex-direction: column;
@@ -127,12 +132,12 @@ export const InfoSection = styled.div`
   h3 {
     flex-basis: 100%;
     text-align: center;
-    color: #db861d;
+    color: white;
   }
   .card {
     display: flex;
     flex-direction: column;
-    border: 2px solid #db861d;
+    border: 2px solid white;
     border-radius: 20px;
     padding: 20px;
     margin-right: 30px;
