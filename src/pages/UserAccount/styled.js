@@ -8,6 +8,7 @@ export const Container = styled.div`
   background-position: top center; /* Aligns image at the top */
   background-color: rgb(24, 36, 102);
   position: relative;
+  padding-bottom: 20px;
 `;
 
 export const ContainerMask = styled.div`

@@ -7,7 +7,7 @@ import Applications from "../../components/Applications/Applications";
 import NotFound from "../../components/NotFound/NotFound";
 
 const UserAccount = () => {
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState(3);
 
   return (
     <Container>
