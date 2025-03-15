@@ -12,7 +12,10 @@ const Home = () => {
           <HeaderWrapper>
             <div class="flex">
               <div class="img-cnt">
-                <img src="https://www.bsw.com.pl/theme/img/bps-white.png" />
+                <img
+                  src="https://www.bsw.com.pl/theme/img/bps-white.png"
+                  alt="bg-picture"
+                />
               </div>
               <h1>
                 <span>British school </span>
@@ -39,28 +42,28 @@ const Home = () => {
         <div class="card">
           <h5> Сміливість</h5>
           <div class="icon-wrapper">
-            <img src={courage} />
+            <img src={courage} alt="courage-icon" />
           </div>
         </div>
 
         <div class="card">
           <h5>Кооперація</h5>
           <div class="icon-wrapper">
-            <img src={cooperation} />
+            <img src={cooperation} alt="cooperation-icon" />
           </div>
         </div>
 
         <div class="card">
           <h5>Толерантність</h5>
           <div class="icon-wrapper">
-            <img src={love} />
+            <img src={love} alt="tolerance-icon" />
           </div>
         </div>
 
         <div class="card">
           <h5> Повага</h5>
           <div class="icon-wrapper">
-            <img src={respect} />
+            <img src={respect} alt="respect-icon" />
           </div>
         </div>
       </InfoSection>

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const StyledForm = styled.form`
   border-left: 2px solid #db861d;
-  //   border-radius: 30px;
   padding: 30px;
 `;
 

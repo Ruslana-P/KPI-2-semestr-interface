@@ -35,15 +35,15 @@ const CardComponent = ({ name, grade, field }) => {
           <p class="application-title m-t">Документи</p>
           <ul>
             <li>
-              <img class="file-icon" src={file} />
+              <img class="file-icon" src={file} alt="file icon" />
               <span>Свідоцтво про народження дитини</span>
             </li>
             <li>
-              <img class="file-icon" src={file} />
+              <img class="file-icon" src={file} alt="file icon" />
               <span>Табелі з попердніх років навчання</span>
             </li>
             <li>
-              <img class="file-icon" src={file} />
+              <img class="file-icon" src={file} alt="file icon" />
               <span>Медична довідка д-123</span>
             </li>
           </ul>
@@ -54,13 +54,13 @@ const CardComponent = ({ name, grade, field }) => {
 
       {isOpen ? (
         <ArrowsWrapper onClick={() => setIsOpen(false)}>
-          <img src={arrowUp} />
-          <img src={arrowUp} />
+          <img src={arrowUp} alt="arrow up icon" />
+          <img src={arrowUp} alt="arrow up icon" />
         </ArrowsWrapper>
       ) : (
         <ArrowsWrapper onClick={() => setIsOpen(true)}>
-          <img src={arrowDown} />
-          <img src={arrowDown} />
+          <img src={arrowDown} alt="arrow down icon" />
+          <img src={arrowDown} alt="arrow down icon" />
         </ArrowsWrapper>
       )}
     </Card>
